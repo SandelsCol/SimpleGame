@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Name="bxtbotton" Content="Button" HorizontalAlignment="Left" Height="43" Margin="586,322,0,0" VerticalAlignment="Top" Width="136" Click="bxtbotton_Click"/>
+        <TextBox Name="txtbox" HorizontalAlignment="Left" Height="227" Margin="552,55,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
 
     </Grid>
 </Window>

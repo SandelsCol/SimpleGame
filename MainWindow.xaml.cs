@@ -24,5 +24,10 @@ namespace SimpleGame
         {
             InitializeComponent();
         }
+
+        private void bxtbotton_Click(object sender, RoutedEventArgs e)
+        {
+            Card p = new Card ("diamons", "A");
+        }
     }
 }
