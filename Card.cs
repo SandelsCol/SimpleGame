@@ -23,6 +23,8 @@ namespace SimpleGame
             int score;
             score = points.Next(0, 11);
 
+            Console.WriteLine("True or false");
+
             if (decide == true)
             {
                 color = "red";
